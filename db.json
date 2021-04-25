@@ -1,0 +1,16 @@
+{
+  "Users": [
+    {
+      "id": 0,
+      "Name": "ferhat",
+      "Password": "123"
+    }
+  ],
+  "comments": [
+    {
+      "id": 0,
+      "content": "Wow such content!",
+      "username": "zero_cool"
+    }
+  ]
+}
