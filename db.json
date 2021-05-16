@@ -1,10 +1,133 @@
 {
-  "Users": [],
-  "Wallet": [],
-  "Admin": [
+  "Users": [
     {
-      "Name": "admin",
-      "Password": "admin"
+      "id": 0,
+      "Name": "Zeynep",
+      "Surname": "Tat",
+      "TC": 12345678910,
+      "Email": "zeynotat@gmail.com",
+      "Password": "080808",
+      "Phone": "05365485124",
+      "Adress": "İzmir",
+      "Username": "zeyno"
+    },
+    {
+      "id": 1,
+      "Name": "Ferhat",
+      "Surname": "Osanoglu",
+      "TC": 13745656465,
+      "Email": "ferhatosanogluo@gmail.com",
+      "Password": "020202",
+      "Phone": "05354484654",
+      "Adress": "İstanbul",
+      "Username": "feros"
+    },
+    {
+      "id": 2,
+      "Name": "Ahmet",
+      "Surname": "Demir",
+      "TC": 12548653254,
+      "Email": "ahmetdemir@gmail.com",
+      "Password": "ahmet08",
+      "Phone": "05362548515",
+      "Adress": "ankara",
+      "Username": "ahmir"
+    },
+    {
+      "id": 3,
+      "Name": "Mehmet",
+      "Surname": "Yıldız",
+      "TC": 56241748965,
+      "Email": "mehmetyıldız@gmail.com",
+      "Password": "mehmet03",
+      "Phone": "05856542154",
+      "Adress": "İstanbul",
+      "Username": "mehyıl"
+    },
+    {
+      "id": 4,
+      "Name": "Sabri",
+      "Surname": "Dogan",
+      "TC": 85623598425,
+      "Email": "sabridogan@gmail.com",
+      "Password": "010101",
+      "Phone": "05856542579",
+      "Adress": "Adıyaman",
+      "Username": "sabdo"
+    }
+  ],
+  "Wallet": [
+    {
+      "id": 0,
+      "Name": "Buğday",
+      "Amount": 50,
+      "UserId": 0,
+      "Username": "zeyno",
+      "state": true
+    },
+    {
+      "id": 1,
+      "Name": "tl",
+      "Amount": 500,
+      "UserId": 1,
+      "Username": "feros",
+      "state": true
+    },
+    {
+      "id": 2,
+      "Name": "Buğday",
+      "Amount": 100,
+      "UserId": 1,
+      "Username": "feros",
+      "state": true
+    },
+    {
+      "id": 3,
+      "Name": "Arpa",
+      "Amount": 50,
+      "UserId": 1,
+      "Username": "feros",
+      "state": true
+    },
+    {
+      "id": 4,
+      "Name": "Nohut",
+      "Amount": 200,
+      "UserId": 1,
+      "Username": "feros",
+      "state": false
+    },
+    {
+      "id": 5,
+      "Name": "tl",
+      "Amount": 50,
+      "UserId": 0,
+      "Username": "zeyno",
+      "state": false
+    },
+    {
+      "id": 6,
+      "Name": "Nohut",
+      "Amount": 100,
+      "UserId": 2,
+      "Username": "ahmir",
+      "state": true
+    },
+    {
+      "id": 7,
+      "Name": "Buğday",
+      "Amount": 100,
+      "UserId": 3,
+      "Username": "mehyıl",
+      "state": true
+    },
+    {
+      "id": 8,
+      "Name": "arpa",
+      "Amount": 100,
+      "UserId": 3,
+      "Username": "mehyıl",
+      "state": true
     }
   ]
 }
