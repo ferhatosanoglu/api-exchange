@@ -136,5 +136,43 @@
       "State": true,
       "Price": 3
     }
+  ],
+  "Markets": [
+    {
+      "id": 0,
+      "Name": "Buğday",
+      "0": {
+        "Amount": 50,
+        "Price": 4
+      },
+      "1": {
+        "Amount": 100,
+        "Price": 3
+      },
+      "3": {
+        "Amount": 100,
+        "Price": 5
+      }
+    },
+    {
+      "id": 1,
+      "Name": "Arpa",
+      "1": {
+        "Amount": 50,
+        "Price": 5
+      },
+      "3": {
+        "Amount": 100,
+        "Price": 3
+      }
+    },
+    {
+      "id": 2,
+      "Name": "Nohut",
+      "2": {
+        "Amount": 100,
+        "Price": 3
+      }
+    }
   ]
 }
