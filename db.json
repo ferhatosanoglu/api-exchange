@@ -60,18 +60,15 @@
     {
       "id": 0,
       "Name": "Buğday",
-      "Amount": 50,
+      "Amount": 100,
       "UserId": 0,
-      "Username": "zeyno",
-      "State": true,
-      "Price": 4
+      "State": true
     },
     {
       "id": 1,
       "Name": "tl",
-      "Amount": 500,
+      "Amount": 248.863,
       "UserId": 1,
-      "Username": "feros",
       "State": true
     },
     {
@@ -79,34 +76,27 @@
       "Name": "Buğday",
       "Amount": 100,
       "UserId": 1,
-      "Username": "feros",
-      "State": true,
-      "Price": 3
+      "State": true
     },
     {
       "id": 3,
       "Name": "Arpa",
       "Amount": 50,
       "UserId": 1,
-      "Username": "feros",
-      "State": true,
-      "Price": 5
+      "State": true
     },
     {
       "id": 4,
       "Name": "Nohut",
       "Amount": 200,
       "UserId": 1,
-      "Username": "feros",
-      "State": false,
-      "Price": 2
+      "State": false
     },
     {
       "id": 5,
       "Name": "tl",
       "Amount": 50,
       "UserId": 0,
-      "Username": "zeyno",
       "State": false
     },
     {
@@ -114,65 +104,119 @@
       "Name": "Nohut",
       "Amount": 100,
       "UserId": 2,
-      "Username": "ahmir",
-      "State": true,
-      "Price": 3
+      "State": true
     },
     {
       "id": 7,
       "Name": "Buğday",
       "Amount": 100,
       "UserId": 3,
-      "Username": "mehyıl",
-      "State": true,
-      "Price": 5
-    },
-    {
-      "id": 8,
-      "Name": "arpa",
-      "Amount": 100,
-      "UserId": 3,
-      "Username": "mehyıl",
-      "State": true,
-      "Price": 3
+      "State": true
     }
   ],
   "Markets": [
     {
-      "id": 0,
+      "Amount": 50,
+      "Price": 10,
       "Name": "Buğday",
-      "0": {
-        "Amount": 50,
-        "Price": 4
-      },
-      "1": {
-        "Amount": 100,
-        "Price": 3
-      },
-      "3": {
-        "Amount": 100,
-        "Price": 5
-      }
+      "UserId": "0",
+      "State": "Sell",
+      "id": 1
     },
     {
-      "id": 1,
+      "Amount": 50,
+      "Price": 15,
+      "Name": "Buğday",
+      "UserId": "0",
+      "State": "Sell",
+      "id": 1
+    },
+    {
+      "Amount": 50,
+      "Price": 20,
+      "Name": "Buğday",
+      "UserId": "0",
+      "State": "Buy",
+      "id": 1
+    },
+    {
+      "Amount": 50,
+      "Price": 3,
+      "Name": "Buğday",
+      "UserId": "0",
+      "State": "Buy",
+      "id": 1
+    },
+    {
+      "Amount": 50,
+      "Price": 1,
+      "Name": "Buğday",
+      "UserId": "0",
+      "State": "Buy",
+      "id": 1
+    },
+    {
+      "Amount": 50,
+      "Price": 2,
+      "Name": "Buğday",
+      "UserId": "0",
+      "State": "Buy",
+      "id": 1
+    },
+    {
+      "Amount": 50,
+      "Price": 10,
       "Name": "Arpa",
-      "1": {
-        "Amount": 50,
-        "Price": 5
-      },
-      "3": {
-        "Amount": 100,
-        "Price": 3
-      }
+      "UserId": "1",
+      "State": "Sell",
+      "id": 2
     },
     {
-      "id": 2,
-      "Name": "Nohut",
-      "2": {
-        "Amount": 100,
-        "Price": 3
-      }
+      "Amount": 5,
+      "Price": 20,
+      "Name": "Buğday",
+      "UserId": "1",
+      "State": "Buy",
+      "id": 3
+    },
+    {
+      "Amount": 5,
+      "Price": 25,
+      "Name": "Buğday",
+      "UserId": "1",
+      "State": "Buy",
+      "id": 4
+    },
+    {
+      "Amount": 20,
+      "Price": 50,
+      "Name": "Buğday",
+      "UserId": "1",
+      "State": "Sell",
+      "id": 5
+    }
+  ],
+  "Admin": {
+    "tl": 53.25
+  },
+  "Log": [
+    {
+      "Amount": 10,
+      "Price": 5,
+      "Name": "Buğday",
+      "UserId": "1",
+      "State": "Buy",
+      "time": "2021-06-21T20:51:30.281Z",
+      "id": 1
+    },
+    {
+      "Amount": 50,
+      "Price": 3,
+      "Name": "Buğday",
+      "UserId": "1",
+      "State": "Sell",
+      "time": "2021-06-21T20:53:50.195Z",
+      "id": 2
     }
   ]
 }
